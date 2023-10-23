@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ecosta@codingdojo.la">
+    <title>Dojonary</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Barra de navegación -->
+        <div class="navbar">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button onclick="cambiarTexto(this)">Login</button>
+        </div>
+
+        <div class="row">
+            <!-- Columna 1 -->
+            <div class="col-1">
+
+                <!-- Tarjeta 1 -->
+                <div class="tarjeta-principal">
+                    <div class="contenido-izquierda">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="mensaje()">13 likes</button>
+                    </div>
+                    <p class="contenido-derecha">
+                        A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="tarjeta-principal">
+                    <div class="contenido-izquierda">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn like" onclick="mensaje()">37 likes</button>
+                    </div>
+                    <p class="contenido-derecha">
+                        A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+
+            <!-- Columna 2 -->
+            <div class="col-2">
+                <div class="tarjeta-secundaria">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button onclick="eliminarBoton(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

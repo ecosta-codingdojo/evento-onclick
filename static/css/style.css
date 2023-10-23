@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: lightgray;
+    height: 80px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 42px;
+}
+
+.navbar input {
+    flex: 1;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0 100px;
+    border: 3px solid black;
+    outline: none;
+}
+
+.navbar button {
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex: 2;
+    margin-right: 30px;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.tarjeta-principal {
+    margin-top: 30px;
+    padding: 30px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-izquierda {
+    flex: 1;
+    text-align: center;
+}
+
+.contenido-izquierda h2 {
+    font-size: 38px;
+}
+
+.contenido-izquierda p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contenido-derecha {
+    flex: 3;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contenido-derecha a {
+    color: royalblue;
+}
+
+.tarjeta-principal button {
+    background-color: gold;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tarjeta-secundaria {
+    margin-top: 30px;
+    padding: 30px;
+    border: 3px solid black;
+}
+
+.tarjeta-secundaria button {
+    background-color: yellowgreen;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
